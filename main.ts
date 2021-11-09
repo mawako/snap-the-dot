@@ -15,13 +15,12 @@ input.onButtonPressed(Button.B, function () {
     }
 })
 let sprite: game.LedSprite = null
-basic.showString("hi")
 basic.showLeds(`
-    . . . . .
-    . # . # .
-    . . . . .
     # . . . #
-    . # # # .
+    . . # . .
+    # . . . #
+    . . # . .
+    # . . . #
     `)
 sprite = game.createSprite(2, 1)
 sprite = game.createSprite(2, 3)
