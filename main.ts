@@ -6,8 +6,16 @@ input.onButtonPressed(Button.A, function () {
         basic.showNumber(game.score())
     }
 })
+input.onButtonPressed(Button.B, function () {
+    if (sprite.get(LedSpriteProperty.X) == 2) {
+        game.addScore(1)
+    } else {
+        game.gameOver()
+        basic.showNumber(game.score())
+    }
+})
 let sprite: game.LedSprite = null
-basic.showString("hi.")
+basic.showString("hi")
 basic.showLeds(`
     . . . . .
     . # . # .

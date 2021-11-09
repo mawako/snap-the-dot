@@ -1,6 +1,5 @@
 {
     "name": "SNAP THE DOT.",
-    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -23,5 +22,5 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "blocksprj"
 }
